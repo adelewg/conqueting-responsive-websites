@@ -33,6 +33,10 @@ h1 {
     font-size: 3rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -42,6 +46,7 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
+    border: 2px red solid;
 
     /* can't use yet */
     /* gap: 100px; */
@@ -49,13 +54,11 @@ h1 {
 
 .col {
     /* these are now flex items */
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
-    padding: 3em 0;
+    padding: 2em 0;
 }
-.col + .col {
-    margin-left: 30px;
-}
+
 
 .accent_header{
     color:#87629A;
@@ -67,20 +70,29 @@ h1 {
     color: #FFF;
 }
 
-.hero_bottom {
-    background-color: #136C72;
+.white h1{
+    color: #136C72;
+}
+
+.vertical{
+    background:#136C72;
     color: white;
-  
+    width: 100%;
+    padding: 0 1em;
 }
 
 .hero__text {
     width: 60%;
+    background: brown;
 }
 
 .hero p {
     margin-bottom: 3em;
 }
 
+.hero_img {
+    width: 40%;
+}
 .btn {
     display: inline-block;
     text-decoration: none;
