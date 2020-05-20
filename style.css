@@ -33,6 +33,11 @@ h1 {
     font-size: 3rem;
 }
 
+.section-title {
+    color: #87629A;
+
+}
+
 img {
     max-width: 100%;
 }
@@ -46,6 +51,7 @@ img {
 .row {
     /* display: flex => flex container */
     display: flex;
+    justify-content: space-between;
     border: 2px red solid;
 
     /* can't use yet */
@@ -81,18 +87,27 @@ img {
     padding: 0 1em;
 }
 
-.hero__text {
-    width: 60%;
-    background: brown;
+.hero__text,
+.primary-content {
+    width: 62%;
+    
 }
 
 .hero p {
     margin-bottom: 3em;
 }
 
-.hero_img {
-    width: 40%;
+.hero_img,
+.sidebar {
+    width: 32%;
 }
+.sidebar {
+    text-align: center;
+    color: #FFF;
+    background-color: #136C72;
+    padding: 1em;
+}
+
 .btn {
     display: inline-block;
     text-decoration: none;
