@@ -23,6 +23,27 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #136c72;
+    padding: .5em 0;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
